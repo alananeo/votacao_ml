@@ -69,8 +69,15 @@ Vamos explorar dados sobre as votações que candidatos à Câmara Federal de De
 
 ## Resposta
 
+Segue o R2 e o RMSE dos modelos construídos.
+
+<img src="/resultado.png" alt="Resultados"/>
+
 O modelo seleciondo foi o KNN
 
 O modelo foi treinado com os dados de 2006 e 2004, com Ridge, Lasso e KNN
+
+
+
 O modelo final escolhido foi o KNN
 o arquivo knn_pred_e_real_2014.csv é um arquivo com a saída do modelo preditivo com os dados dos votos de 2014 
