@@ -2,6 +2,8 @@
 
 ## Descrição da Tarefa
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giseldo/votacao_ml/HEAD)
+
 Nesta atividade construiremos modelos preditivos de regressão em scikit learn para a predição dos votos de deputados federais considerando as eleições de 2006, 2010 e 2014. As atividades esperadas para essa etapa são descritas a seguir:
 
 Baixe os dados nesse link: [dados 2006 e 2010](/data/eleicoes_2006_a_2010.csv) e [dados 2014](/data/eleicoes_2014.csv) (veja descrição dos dados mais abaixo).
