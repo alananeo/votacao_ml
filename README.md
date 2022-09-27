@@ -4,8 +4,8 @@
 
 Nesta atividade construiremos modelos preditivos de regressão em scikit learn para a predição dos votos de deputados federais considerando as eleições de 2014. As atividades esperadas para essa etapa são descritas a seguir:
 
-Baixe os dados nesse link: <img src="/data/eleicoes_2006_a_2010.csv" alt="2006 e 2014"/> (veja descrição dos dados mais abaixo).
-Considere o pipeline mostrado nesse link para construir seus modelos de regressão. Isso implica, dentre outras coisas:
+Baixe os dados nesse link: [a relative link](/data/eleicoes_2006_a_2010.csv) (veja descrição dos dados mais abaixo).
+Considere o pipeline mostrado nesse link [a link](https://www.kaggle.com/apapiu/regularized-linear-models) para construir seus modelos de regressão. Isso implica, dentre outras coisas:
 Analisar as distribuições das variáveis para ver se estão enviesadas e precisam de correção; tratamento de valores ausentes, variáveis categóricas e normalização, quando for o caso.
 Construir modelos de regressão com (ridge e lasso) e sem regularização.
 Considerar outros modelos ainda não vistos em sala de sua escolha (e.g. SVR, Regression Trees, KNN e Random Florests).
