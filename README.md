@@ -21,51 +21,9 @@ Sobre os dados
 
 Vamos explorar dados sobre as votações que candidatos à Câmara Federal de Deputados receberam nos anos de 2006 e 2010. Esses dados foram extraídos do TSE, pré-processados e contemplam informações sobre aproximadamente 7.300 candidatos. A descrição de cada atributo é dada mais abaixo.
 
-"sequencial_candidato" :(character) id do candidato
-
-"nome": (character)
-
-"uf": (character)
-
-"partido": (character)
-
-"quantidade_doacoes": (integer)
-
-"quantidade_doadores": (integer) número de doadores diferentes
-
-"total_receita": (double) soma em R$ das doações
-
-"media_receita": (double) média das doações
-
-"recursos_de_outros_candidatos/comites": (double) quantia em R$ das doações provenientes de outros candidatos ou comite partidário
-
-"recursos_de_pessoas_fisicas": (double) quantia em R$ das doações provenientes de outros CPFs
-
-"recursos_de_pessoas_juridicas": (double) quantia em R$ das doações provenientes de outros CNPJ
-
-"recursos_proprios": (double) quantia em R$ das doações provenientes do próprio candidato
-
-"recursos_de_partido_politico": (double) quantia em R$ das doações provenientes do partido político do candidato
-
-"votos": (integer) variável alvo. Se refere ao número de votos na campanha de 2006 e 2010
-
-"quantidade_despesas": (integer)
-
-"quantidade_fornecedores": (integer) número de fornecedores/despesas diferentes
-
-"total_despesa": (double) soma em R$ das despesas de campanha
-
-"media_despesa": (double) média das despesas de campanha
-
-"cargo": (character)
-
-"Sexo":  (character)
-
-"grau": (character) grau de instrução do candidato
-
-"estado_civil": (character)
-
-"ocupacao": (character) ocupação do candidato
+"sequencial_candidato": (character) id do candidato | "nome": (character) | "uf": (character) | "partido": (character) | "quantidade_doacoes": (integer) | "quantidade_doadores": (integer) número de doadores diferentes | "total_receita": (double) soma em R$ das doações | "media_receita": (double) média das doações | "recursos_de_outros_candidatos/comites": (double) quantia em R$ das doações provenientes de outros candidatos ou comite partidário | "recursos_de_pessoas_fisicas": (double) quantia em R$ das doações provenientes de outros CPFs | "recursos_de_pessoas_juridicas": (double) quantia em R$ das doações provenientes de outros CNPJ | "recursos_proprios": (double) quantia em R$ das doações provenientes do próprio candidato | "recursos_de_partido_politico": (double) quantia em R$ das doações provenientes do partido político do candidato | "votos": (integer) variável alvo. Se refere ao número de votos na campanha de 2006 e 2010 | "quantidade_despesas": (integer) | "quantidade_fornecedores": (integer) número de fornecedores/despesas diferentes | "total_despesa": (double) soma em R$ das despesas de campanha | 
+"media_despesa": (double) média das despesas de campanha | "cargo": (character) | "Sexo":  (character) | "grau": (character) grau de instrução do candidato | 
+"estado_civil": (character) | "ocupacao": (character) ocupação do candidato
 
 ## Resposta
 
@@ -77,7 +35,9 @@ O modelo seleciondo foi o KNN
 
 O modelo foi treinado com os dados de 2006 e 2004, com Ridge, Lasso e KNN
 
-
-
 O modelo final escolhido foi o KNN
-o arquivo knn_pred_e_real_2014.csv é um arquivo com a saída do modelo preditivo com os dados dos votos de 2014 
+
+Uma predição com dados de 2014 foi gerado a partir do modelo construído
+
+<img src="/predicao.png" alt="Predicao"/>
+
