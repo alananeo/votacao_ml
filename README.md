@@ -29,7 +29,6 @@ Vamos explorar dados sobre as votações que candidatos à Câmara Federal de De
 
 "partido": (character)
 
-## Resposta
 "quantidade_doacoes": (integer)
 
 "quantidade_doadores": (integer) número de doadores diferentes
@@ -72,4 +71,6 @@ Vamos explorar dados sobre as votações que candidatos à Câmara Federal de De
 
 O modelo seleciondo foi o KNN
 
-knn_pred_e_real_2014.csv é a resposta do modelo para os ados de 2014 
+O modelo foi treinado com os dados de 2006 e 2004, com Ridge, Lasso e KNN
+O modelo final escolhido foi o KNN
+o arquivo knn_pred_e_real_2014.csv é um arquivo com a saída do modelo preditivo com os dados dos votos de 2014 
