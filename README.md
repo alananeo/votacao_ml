@@ -39,7 +39,7 @@ Segue o R2 e o RMSE dos modelos construídos.
 
 O modelo seleciondo foi o KNN
 
-O modelo foi treinado com os dados de 2006 e 2004, com Ridge, Lasso e KNN
+O modelo foi treinado com os dados de 2006 e 2004, com Ridge, Lasso, Random e  e KNN
 
 O modelo final escolhido foi o KNN
 
